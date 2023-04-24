@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <h1>Quiz de Pergunta</h1>
+
+    <div class="resultado d-none">
+        <div class="container">
+            <p>Você acertou <span>0%</span> do quiz!</p>
+        </div>
+    </div>
+
+    <form class="quiz-form">
+      <div class="box-question">
+        <p class="title-question">
+          1. "O mal disposto" é o nome dado para o filme:
+        </p>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" name="inputQuestion1" value="A" />
+            Pisicose
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" name="inputQuestion1" value="B" />
+            Meu malvado favorito
+          </label>
+        </div>
+      </div>
+
+      <div class="box-question">
+        <p class="title-question">
+          2. "Uma fámilia a beira de um Ataque de nervoss é o titulo de:
+        </p>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" name="inputQuestion2" value="A"  />
+            Familia do Bagulho
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" name="inputQuestion2" value="B"  />
+            Pequena Miss Sunshine
+          </label>
+        </div>
+      </div>
+
+      <div class="box-question">
+        <p class="title-question">
+          3. "O Aviso é o nome dado para o filem de terror:
+        </p>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" name="inputQuestion3" value="A"/>
+            O Grito
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" name="inputQuestion3" value="B" />
+            O chamado
+          </label>
+        </div>
+      </div>
+
+      <div class="box-question">
+        <p class="title-question">4. "O Rei dos Gazeteiros é o famoso file:</p>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" name="inputQuestion4" value="A" />
+            O Lobo de Wll Street
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" name="inputQuestion4" value="B" />
+            Curtindo a vida adoidado
+          </label>
+        </div>
+      </div>
+      <div class="btn-form">
+        <button class="btn">Enviar respostas</button>
+      </div>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
